@@ -72,7 +72,10 @@
                     <option value="">Health care</option>
                     <option value="">Technology</option>
                 </select>
-                <button type="button" class="btn btn-success">Search</button>
+                <button type="button" class="btn btn-success" onclick="window.location.href='findAJob.php'" 
+                <?php if ($_SESSION['type'] != 1) { 
+            echo "style='display: none;'"; 
+            } ?> >Search</button>
             </form>
         </div>
       </div>

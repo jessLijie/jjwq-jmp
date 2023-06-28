@@ -44,7 +44,7 @@
                     <option value="">Health care</option>
                     <option value="">Technology</option>
                 </select>
-                <button type="button" class="btn btn-success">Search</button>
+                <button type="button" class="btn btn-success" onclick="window.location.href='signin.php'">Search</button>
             </form>
         </div>
       </div>
